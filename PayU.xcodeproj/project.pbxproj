@@ -1,0 +1,432 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		81F7E54D22B8FE1F00121115 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F7E54C22B8FE1F00121115 /* AppDelegate.swift */; };
+		81F7E54F22B8FE1F00121115 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F7E54E22B8FE1F00121115 /* ViewController.swift */; };
+		81F7E55222B8FE1F00121115 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81F7E55022B8FE1F00121115 /* Main.storyboard */; };
+		81F7E55422B8FE2000121115 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81F7E55322B8FE2000121115 /* Assets.xcassets */; };
+		81F7E55722B8FE2000121115 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81F7E55522B8FE2000121115 /* LaunchScreen.storyboard */; };
+		81F7E56122B8FE9E00121115 /* PayUServiceHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 81F7E55F22B8FE9E00121115 /* PayUServiceHelper.m */; };
+		81F7E56322B9262400121115 /* SecondVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F7E56222B9262400121115 /* SecondVC.swift */; };
+		E1AA6B48F3F631D5EFB24382 /* Pods_PayU.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1C31C7E5E99F6A6DECFF6DF /* Pods_PayU.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D782A2401963A51CC2D88C3 /* Pods-PayU.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PayU.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PayU/Pods-PayU.debug.xcconfig"; sourceTree = "<group>"; };
+		81F7E54922B8FE1F00121115 /* PayU.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PayU.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		81F7E54C22B8FE1F00121115 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		81F7E54E22B8FE1F00121115 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		81F7E55122B8FE1F00121115 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		81F7E55322B8FE2000121115 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		81F7E55622B8FE2000121115 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		81F7E55822B8FE2000121115 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81F7E55E22B8FE9D00121115 /* PayU-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PayU-Bridging-Header.h"; sourceTree = "<group>"; };
+		81F7E55F22B8FE9E00121115 /* PayUServiceHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PayUServiceHelper.m; sourceTree = "<group>"; };
+		81F7E56022B8FE9E00121115 /* PayUServiceHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayUServiceHelper.h; sourceTree = "<group>"; };
+		81F7E56222B9262400121115 /* SecondVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondVC.swift; sourceTree = "<group>"; };
+		A1C31C7E5E99F6A6DECFF6DF /* Pods_PayU.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PayU.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8BF1C7CE7758E4C9B05AE2C /* Pods-PayU.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PayU.release.xcconfig"; path = "Pods/Target Support Files/Pods-PayU/Pods-PayU.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		81F7E54622B8FE1F00121115 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1AA6B48F3F631D5EFB24382 /* Pods_PayU.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3553FFC6B2AE3367CFD09494 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1D782A2401963A51CC2D88C3 /* Pods-PayU.debug.xcconfig */,
+				D8BF1C7CE7758E4C9B05AE2C /* Pods-PayU.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		81F7E54022B8FE1F00121115 = {
+			isa = PBXGroup;
+			children = (
+				81F7E54B22B8FE1F00121115 /* PayU */,
+				81F7E54A22B8FE1F00121115 /* Products */,
+				3553FFC6B2AE3367CFD09494 /* Pods */,
+				99A7F9583ED57DB05A6F0911 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		81F7E54A22B8FE1F00121115 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				81F7E54922B8FE1F00121115 /* PayU.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		81F7E54B22B8FE1F00121115 /* PayU */ = {
+			isa = PBXGroup;
+			children = (
+				81F7E54C22B8FE1F00121115 /* AppDelegate.swift */,
+				81F7E54E22B8FE1F00121115 /* ViewController.swift */,
+				81F7E56222B9262400121115 /* SecondVC.swift */,
+				81F7E56022B8FE9E00121115 /* PayUServiceHelper.h */,
+				81F7E55F22B8FE9E00121115 /* PayUServiceHelper.m */,
+				81F7E55022B8FE1F00121115 /* Main.storyboard */,
+				81F7E55322B8FE2000121115 /* Assets.xcassets */,
+				81F7E55522B8FE2000121115 /* LaunchScreen.storyboard */,
+				81F7E55822B8FE2000121115 /* Info.plist */,
+				81F7E55E22B8FE9D00121115 /* PayU-Bridging-Header.h */,
+			);
+			path = PayU;
+			sourceTree = "<group>";
+		};
+		99A7F9583ED57DB05A6F0911 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A1C31C7E5E99F6A6DECFF6DF /* Pods_PayU.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		81F7E54822B8FE1F00121115 /* PayU */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81F7E55B22B8FE2000121115 /* Build configuration list for PBXNativeTarget "PayU" */;
+			buildPhases = (
+				98CCADDD9228EE7980230B4F /* [CP] Check Pods Manifest.lock */,
+				81F7E54522B8FE1F00121115 /* Sources */,
+				81F7E54622B8FE1F00121115 /* Frameworks */,
+				81F7E54722B8FE1F00121115 /* Resources */,
+				0D1B3D3BD625450F75278FFB /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PayU;
+			productName = PayU;
+			productReference = 81F7E54922B8FE1F00121115 /* PayU.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		81F7E54122B8FE1F00121115 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Yugasalabs-28";
+				TargetAttributes = {
+					81F7E54822B8FE1F00121115 = {
+						CreatedOnToolsVersion = 10.2;
+						LastSwiftMigration = 1020;
+					};
+				};
+			};
+			buildConfigurationList = 81F7E54422B8FE1F00121115 /* Build configuration list for PBXProject "PayU" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 81F7E54022B8FE1F00121115;
+			productRefGroup = 81F7E54A22B8FE1F00121115 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				81F7E54822B8FE1F00121115 /* PayU */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		81F7E54722B8FE1F00121115 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81F7E55722B8FE2000121115 /* LaunchScreen.storyboard in Resources */,
+				81F7E55422B8FE2000121115 /* Assets.xcassets in Resources */,
+				81F7E55222B8FE1F00121115 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0D1B3D3BD625450F75278FFB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-PayU/Pods-PayU-frameworks.sh",
+				"${PODS_ROOT}/PayUIndia-Custom-Browser/PayUCustomBrowser.framework",
+				"${PODS_ROOT}/PayUmoney_CoreSDK/CoreSDK/PayUMoneyCoreSDK.framework",
+				"${PODS_ROOT}/PayUmoney_PnP/PlugNPlay/PlugNPlay.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PayUCustomBrowser.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PayUMoneyCoreSDK.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PlugNPlay.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PayU/Pods-PayU-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		98CCADDD9228EE7980230B4F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PayU-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		81F7E54522B8FE1F00121115 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81F7E56122B8FE9E00121115 /* PayUServiceHelper.m in Sources */,
+				81F7E54F22B8FE1F00121115 /* ViewController.swift in Sources */,
+				81F7E56322B9262400121115 /* SecondVC.swift in Sources */,
+				81F7E54D22B8FE1F00121115 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		81F7E55022B8FE1F00121115 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81F7E55122B8FE1F00121115 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		81F7E55522B8FE2000121115 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81F7E55622B8FE2000121115 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		81F7E55922B8FE2000121115 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		81F7E55A22B8FE2000121115 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		81F7E55C22B8FE2000121115 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D782A2401963A51CC2D88C3 /* Pods-PayU.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 7E2Z265GXS;
+				INFOPLIST_FILE = PayU/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yugasa.PayU.in;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = PayUMoneyDeve;
+				SWIFT_OBJC_BRIDGING_HEADER = "PayU/PayU-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		81F7E55D22B8FE2000121115 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8BF1C7CE7758E4C9B05AE2C /* Pods-PayU.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 7E2Z265GXS;
+				INFOPLIST_FILE = PayU/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yugasa.PayU.in;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = PayUMoneyDeve;
+				SWIFT_OBJC_BRIDGING_HEADER = "PayU/PayU-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		81F7E54422B8FE1F00121115 /* Build configuration list for PBXProject "PayU" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81F7E55922B8FE2000121115 /* Debug */,
+				81F7E55A22B8FE2000121115 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81F7E55B22B8FE2000121115 /* Build configuration list for PBXNativeTarget "PayU" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81F7E55C22B8FE2000121115 /* Debug */,
+				81F7E55D22B8FE2000121115 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 81F7E54122B8FE1F00121115 /* Project object */;
+}
